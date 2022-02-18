@@ -4,8 +4,8 @@ import './menu.scss'
 export default function Menu({open, isOpen}) {
   return (
     <div className={'menu ' + (open && "active")} >
-        <ul>
-            <li> 
+        <ul onClick={()=>isOpen(!open)}>
+            <li >  
                 <a href='#intro'>Home</a>
             </li>
             <li> 
