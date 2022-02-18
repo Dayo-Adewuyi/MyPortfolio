@@ -1,6 +1,9 @@
 import './intro.scss'
 import { init } from 'ityped'
 import { useEffect, useRef } from 'react'
+import Name from '../name/Name';
+import { motion } from 'framer-motion'
+
 
 export default function Intro() {
 
@@ -15,17 +18,20 @@ useEffect(()=>{
 },[])
 
   return (
-    <div className='intro' id='intro '>
+    <div className='intro' id='intro'>
     <div className='left'>
-    <div className="imageContainer">
+    <motion.div className="imageContainer"
+      initial={{ x: '-100vw'}}
+      animate={{x: 0}}
+      transition={{type: 'string', duration: 2, bounce: 0.3}}>
         <img src="asset/godabeg.png" alt="dayo"/>
-      </div>
+      </motion.div>
     </div>
       
     <div className='right'>
       <div className="wrapper">
-        <h2>Hello, I'm</h2>
-        <h1>Dayo Adewuyi</h1>
+        <h2>Hello, I'm </h2>
+        <Name/>
         <h3>Freelance <span ref={textRef}></span></h3>
          </div>
           <a href="#portfolio">
