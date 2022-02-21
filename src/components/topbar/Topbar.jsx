@@ -11,11 +11,11 @@ export default function Topbar({open, isOpen}) {
                 <a href="#intro" className='logo'>Dayo.</a>
                 <div className="itemContainer">
                   <Person className="icon"/>
-                  <span>+234-906-099-2729</span>
+                  <span ><a className="html" href="tel:2349060992729">+234-906-099-2729</a></span>
                   </div>
                   <div className="itemContainer">
                   <Mail className="icon"/>
-                  <span>dayoadewuyi@protonmail.com</span>
+                  <span ><a className="html" href = "mailto:dayoadewuyi@protonmail.com">dayoadewuyi@protonmail.com</a></span>
                   </div>
                   </div>
                   
