@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dayolovesruby/MyPortfolio/static/css/main.5205e513.css",
+    "main.js": "/dayolovesruby/MyPortfolio/static/js/main.e24bbbd6.js",
+    "index.html": "/dayolovesruby/MyPortfolio/index.html",
+    "main.5205e513.css.map": "/dayolovesruby/MyPortfolio/static/css/main.5205e513.css.map",
+    "main.e24bbbd6.js.map": "/dayolovesruby/MyPortfolio/static/js/main.e24bbbd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5205e513.css",
+    "static/js/main.e24bbbd6.js"
+  ]
+}
