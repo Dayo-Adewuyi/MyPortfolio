@@ -31,7 +31,7 @@ export default function Testimonials() {
         "asset/www.png",
       icon: "asset/linkedin.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "An utterly amazing fellow, he assited with the rebranding of our website and also contributed to the creation of our dApps",
     },
   ];
   return (
