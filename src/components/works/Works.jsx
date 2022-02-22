@@ -7,9 +7,9 @@ export default function Works() {
     {
       id: "1",
       icon: "./asset/mobile.png",
-      title: "Web Design",
+      title: "Web Apps",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "Please click on the projects link below to view webapps i created ",
       img:
         "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
@@ -18,16 +18,16 @@ export default function Works() {
       icon: "./asset/globe.png",
       title: "Mobile Application",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Please click on the projects link below to view mobileapps i created",
       img:
         "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
     {
       id: "3",
       icon: "./asset/writing.png",
-      title: "Branding",
+      title: "DApps",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Please click on the projects link below to view Dapps i created",
       img:
         "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
     },
@@ -55,8 +55,8 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
-                </div>
+                  <a href="https://github.com/dayolovesruby" target="_blank"><span>Projects</span></a> 
+                                  </div>
               </div>
               <div className="right">
                 <img

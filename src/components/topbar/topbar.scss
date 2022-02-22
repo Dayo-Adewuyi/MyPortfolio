@@ -56,8 +56,22 @@
                         color: $mainColor;
                         
                     }
-                }
+             
+             
+           }  a:hover , a:visited , a:link , a:active {
+
+            text-decoration: none !important;
+            color: $mainColor;
+
+        }
+
+        .html {
+            text-decoration: none !important;
+            color: $mainColor;
+            
+        }
             }
+
         }
 
         .right{
