@@ -27,12 +27,9 @@ export default function Portfolio() {
     },
     {
       id: "design",
-      title: "Design",
+      title: "DApps",
     },
-    {
-      id: "content",
-      title: "Content",
-    },
+    
   ];
 
   useEffect(() => {
@@ -73,7 +70,7 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div className="item">
-            <img
+           <img
               src={d.img}
               alt=""
             />

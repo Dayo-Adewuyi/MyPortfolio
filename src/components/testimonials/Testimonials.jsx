@@ -4,34 +4,34 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
+      name: "Goke Valentino",
       title: "Senior Developer",
       img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "asset/goke.png",
       icon: "asset/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "I am really impressed by the quality of service from dayo adewuyi. He was right on schedule, professional and delivered a stunning e-commerce site for my products",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "Ayo Agboola",
+      title: "Co-Founder of GreenLagos",
       img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "asset/youtube.png",
+        "asset/chub.png",
+      icon: "asset/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        "Dayo is quite the talent. he helped bring our ideas to life in a professional and timely manner ",
       featured: true,
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Timo Heaman",
+      title: "FrontEnd Developer",
       img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "asset/www.png",
       icon: "asset/linkedin.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "An utterly amazing fellow, he assited with the rebranding of our website and also contributed to the creation of our dApps",
     },
   ];
   return (
